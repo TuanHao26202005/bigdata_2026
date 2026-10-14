@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Spark / local runtime
+data/raw/
+data/bronze/
+data/work/
+data/quarantine/
+data/silver/
+data/cleaned_tsv/
+data/spark_tmp/
+
+# Reports and generated artifacts
+reports/
+
+# Misc
+*.log
+*.tmp
+*.swp

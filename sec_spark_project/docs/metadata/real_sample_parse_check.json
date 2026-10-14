@@ -1,0 +1,54 @@
+[
+  {
+    "table": "sub",
+    "rows": 50,
+    "invalid_casts": {
+      "invalid_cik": 0,
+      "invalid_changed": 0,
+      "invalid_wksi": 0,
+      "invalid_period": 0,
+      "invalid_fy": 0,
+      "invalid_filed": 0,
+      "invalid_accepted": 0,
+      "invalid_prevrpt": 0,
+      "invalid_detail": 0,
+      "invalid_nciks": 0,
+      "invalid_pubfloatusd": 0,
+      "invalid_floatdate": 0,
+      "invalid_floatmems": 0
+    }
+  },
+  {
+    "table": "num",
+    "rows": 50,
+    "invalid_casts": {
+      "invalid_ddate": 0,
+      "invalid_qtrs": 0,
+      "invalid_iprx": 0,
+      "invalid_value": 0,
+      "invalid_footlen": 0,
+      "invalid_dimn": 0,
+      "invalid_durp": 0,
+      "invalid_datp": 0,
+      "invalid_dcml": 0
+    }
+  },
+  {
+    "table": "tag",
+    "rows": 50,
+    "invalid_casts": {
+      "invalid_custom": 0,
+      "invalid_abstract": 0
+    }
+  },
+  {
+    "table": "pre",
+    "rows": 50,
+    "invalid_casts": {
+      "invalid_report": 0,
+      "invalid_line": 0,
+      "invalid_inpth": 0,
+      "invalid_negating": 0
+    }
+  }
+]

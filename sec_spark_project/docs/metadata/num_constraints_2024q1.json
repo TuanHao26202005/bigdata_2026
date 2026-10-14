@@ -1,0 +1,25 @@
+[
+  {
+    "name": "dimh",
+    "titles": [
+      "Dimension Hash"
+    ],
+    "datatype": {
+      "base": "string",
+      "maxLength": 34
+    },
+    "dc:description": "The 32-byte hexadecimal key for the dimensional information in the DIM data set."
+  },
+  {
+    "name": "iprx",
+    "titles": [
+      "Fact Preference"
+    ],
+    "datatype": {
+      "base": "decimal",
+      "minInclusive": 0,
+      "maxInclusive": 32767
+    },
+    "dc:description": "A positive integer to distinguish different reported facts that otherwise would have the same primary key. For most purposes, data with iprx greater than 1 are not needed. The priority for the fact based on higher precision, closeness of the end date to a month end, and closeness of the duration to a multiple of three months. See fields dcml, durp and datp below."
+  }
+]
